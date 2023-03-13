@@ -1,11 +1,50 @@
-.main{
-    background:#4a22e7;
+:root {
+    --fondo: #4a22e7;
+    --texto: #ffffff;
+    --titulo-tarjeta: #ffeb3b;
+    --fondo-popular: #ffcdd2;
+}
+
+.main {
+    background: var(--fondo);
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.cabecera{
 
+.cabecera.sub-tlt.tlt {
+    color: var(--texto);
+    font-family: serif;
+}
+
+.cabecera.tlt {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.popular {
+    background-color: var(--fondo-popular);
+
+}
+
+.popular-txt {
+    color: var(--fondo);
+}
+
+.cabecera.sub-tlt {
+    font-size: 10px;
+}
+
+.precio {
+    color: var(--fondo);
+}
+
+.titulo {
+    color: var(--titulo-tarjeta);
+}
+
+a {
+    color: var(--fondo)
 }
